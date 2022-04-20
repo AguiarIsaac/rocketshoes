@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background: linear-gradient(to right, #e5e5e5 36%, #c4c4c4 36%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+    height: 10vh;
+}
+
+nav .links {
+    display: flex;
+    gap: 5.625rem;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700 bold;
+    color: black;
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0.3rem;
+}
+
+.search input {
+    border: none;
+    margin-left: 0.5rem;
+}
+
+input:focus-visible{
+    outline: none;
+}
+
+main.container {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 36%;
+    padding-left: 7rem;
+
+}
+
+.value h1 {
+    font-size: 60px;
+}
+
+.value p {
+    margin-top: 1.3rem;
+    width: 21rem;
+}
+
+.value h3 {
+    margin-top: 1.3rem;
+    font-size: 40px;
+    font-weight: 700 bold;
+}
+
+.button {
+    margin-top: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17.125rem;
+    height: 5rem;
+    background-color: red;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2rem 6.6rem;
+}
+
+.main-product {
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+    margin-top: 1rem;
+}
+
+.main-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 37rem;
+    margin: 0 auto;
+}
+
+
+.others-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mini-image {
+    max-width: 17rem;
+}
+
+.footer-container {
+    position: fixed;
+    height: 10vh;
+    left: 0;
+    background-color: #c4c4c4;
+    display: flex;
+}
